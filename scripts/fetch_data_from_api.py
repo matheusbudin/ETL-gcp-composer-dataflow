@@ -4,6 +4,7 @@ import requests
 import pyarrow as pa
 import pyarrow.parquet as pq
 
+
 url = 'https://cricbuzz-cricket.p.rapidapi.com/stats/v1/rankings/batsmen'
 headers = {
     "X-RapidAPI-Key": os.environ.get("RAPIDAPI_KEY"),
@@ -29,6 +30,7 @@ if response.status_code == 200:
         pq.write_table(table, parquet_filename)
 
         print(f"Data fetched successfully and written to '{parquet_filename}'")
+        print(f"data frame schema: "{})
     else:
         print("No data available from the API.")
 
