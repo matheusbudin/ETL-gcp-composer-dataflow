@@ -1,5 +1,0 @@
-ETL-gcp-composer-dataglow/.env
-ETL-gcp-composer-dataglow/batsmen_rankings.csv
-ETL-gcp-composer-dataglow/fetch_api_data.py
-ETL-gcp-composer-dataglow\data_source\batsmen_rankings.csv
-ETL-gcp-composer-dataflow\.env
